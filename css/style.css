@@ -64,7 +64,7 @@ body p:hover {
 footer {
   background-color: rgb(158, 161, 202);
   padding: 3rem;
-  color: white;
+  color: rgb(0, 0, 0);
   border-radius: 0.5rem;
 }
 
@@ -74,7 +74,7 @@ footer p {
 
 footer a {
   transition: color 0.3s ease;
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
@@ -193,6 +193,6 @@ footer a:hover {
 
 #luz {
   display: block;
-  margin-left: 300px;
+  margin-left: 250px;
   margin-right: 200px;
 }
