@@ -51,7 +51,7 @@ body p {
   border-radius: 0.5rem;
   padding: 1rem 1rem;
   cursor: pointer;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(134, 134, 134);
   width: 70%;
   margin-left: auto;
   margin-right: auto;
@@ -62,7 +62,7 @@ body p:hover {
 }
 
 footer {
-  background-color: rgb(18, 34, 175);
+  background-color: rgb(10, 22, 126);
   padding: 3rem;
   color: white;
   border-radius: 0.5rem;
@@ -79,7 +79,7 @@ footer a {
 }
 
 footer a:hover {
-  color: rgb(24, 85, 197);
+  color: rgb(0, 0, 0);
 }
 
 /* Go from zero to full opacity */
@@ -99,8 +99,8 @@ footer a:hover {
 
 .tab {
   overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
+  border: 1px solid rgb(149, 160, 255);
+  background-color: #9fabff;
   width: 800px;
   margin: 0 auto;
   border-radius: 0.3rem;
@@ -131,7 +131,7 @@ footer a:hover {
 .tabcontent {
   display: none;
   padding: 0.25rem 0;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(255, 255, 255);
   background-color: #fff;
   border-top: none;
   border-radius: 0.5rem;
@@ -141,4 +141,34 @@ footer a:hover {
 
 .tabcontent {
   animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+#hierro{
+    display:block;
+    margin-left:80px;
+}
+#atomo{
+    display:block:
+    margin-left:auto;
+    margin-right:auto;   
+}
+
+#Sistema{
+    display: block;
+    margin-left: 150px;
+}
+
+#solar{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left:150px;
+    color: midnightblue;
+}
+#planets{
+    margin-left:250px;
+    color:midnightblue;
+    font-size:xx-large;
+}
+#Planetas{
+    display:block;
+    margin-left:300px;
 }
