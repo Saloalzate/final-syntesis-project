@@ -1,19 +1,19 @@
 html {
-  font-family: "Times New Roman", Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 body {
   margin: 0;
-  background-color: #ffffff;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/NGC_4414_%28NASA-med%29.jpg/640px-NGC_4414_%28NASA-med%29.jpg");
 }
 
 header h1 {
-  background-color: #081481;
-  color: white;
-  padding: 3rem 2rem;
-  font-size: 3rem;
+  background-color: rgb(149, 160, 255);
+  color: rgb(0, 0, 0);
+  padding: 1rem 3rem;
+  font-size: 5rem;
   text-align: center;
-  border-radius: 0.5rem;
+  border-radius: 01rem;
 }
 
 h2 {
@@ -26,8 +26,8 @@ h2 {
 h3 {
   font-size: 2rem;
   width: 70%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 h4 {
@@ -62,7 +62,7 @@ body p:hover {
 }
 
 footer {
-  background-color: rgb(10, 22, 126);
+  background-color: rgb(158, 161, 202);
   padding: 3rem;
   color: white;
   border-radius: 0.5rem;
@@ -119,20 +119,20 @@ footer a:hover {
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #ddd;
+  background-color: rgb(140, 138, 167);
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: #ccc;
+  background-color: rgb(92, 73, 177);
 }
 
 /* Style the tab content */
 .tabcontent {
   display: none;
   padding: 0.25rem 0;
-  border: 1px solid rgb(255, 255, 255);
-  background-color: #fff;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(187, 190, 214);
   border-top: none;
   border-radius: 0.5rem;
   width: 800px;
@@ -143,32 +143,56 @@ footer a:hover {
   animation: fadeEffect 1s; /* Fading effect takes 1 second */
 }
 
-#hierro{
-    display:block;
-    margin-left:80px;
+#hierro {
+  display: block;
+  margin-right: 50px;
+  margin-left: 50px;
 }
-#atomo{
-    display:block:
-    margin-left:auto;
-    margin-right:auto;   
-}
-
-#Sistema{
-    display: block;
-    margin-left: 150px;
+#atomo {
+  display: block;
+  margin-left: 250px;
 }
 
-#solar{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-left:150px;
-    color: midnightblue;
+#Sistema {
+  display: block;
+  margin-left: 150px;
 }
-#planets{
-    margin-left:250px;
-    color:midnightblue;
-    font-size:xx-large;
+
+#solar {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-left: 150px;
+  color: midnightblue;
 }
-#Planetas{
-    display:block;
-    margin-left:300px;
+#planets {
+  margin-left: 250px;
+  color: midnightblue;
+  font-size: xx-large;
+}
+#Planetas {
+  display: block;
+  margin-left: ;
+  margin-right: 500px;
+}
+
+#palabra {
+  font-size: 1rem;
+  width: 20%;
+  margin-left: 50px;
+}
+
+#tabla {
+  display: block;
+  margin-left: 250px;
+}
+
+#espectro {
+  display: block;
+  margin-left: 250px;
+}
+
+#luz {
+  display: block;
+  margin-left: 300px;
+  margin-right: 200px;
 }
