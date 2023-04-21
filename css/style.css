@@ -27,8 +27,8 @@ h2 {
 h3 {
   font-size: 2rem;
   width: 70%;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 h4 {
@@ -217,6 +217,7 @@ footer a:hover {
 #luz {
   display: block;
   margin-left: 70px;
+  margin-right: 70px;
 }
 #visible {
   font-size: 1rem;
