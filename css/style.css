@@ -8,8 +8,8 @@ body {
 }
 
 header h1 {
-  background-color: rgb(149, 160, 255);
-  color: rgb(0, 0, 0);
+  background-color: rgb(188, 194, 250);
+  color: black;
   padding: 1rem 3rem;
   font-size: 5rem;
   text-align: center;
@@ -99,8 +99,8 @@ footer a:hover {
 
 .tab {
   overflow: hidden;
-  border: 1px solid rgb(149, 160, 255);
-  background-color: #9fabff;
+  border: 1px solid rgb(188, 194, 250);
+  background-color: #bcc4fb;
   width: 800px;
   margin: 0 auto;
   border-radius: 0.3rem;
@@ -119,12 +119,12 @@ footer a:hover {
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: rgb(140, 138, 167);
+  background-color: rgb(183, 175, 219);
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: rgb(92, 73, 177);
+  background-color: rgb(183, 175, 219);
 }
 
 /* Style the tab content */
@@ -171,7 +171,7 @@ footer a:hover {
 }
 #Planetas {
   display: block;
-  margin-left: ;
+  margin-left: 100px;
   margin-right: 500px;
 }
 
@@ -179,11 +179,14 @@ footer a:hover {
   font-size: 1rem;
   width: 20%;
   margin-left: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: midnightblue;
 }
 
 #tabla {
   display: block;
-  margin-left: 250px;
+  margin-left: 150px;
 }
 
 #espectro {
@@ -191,8 +194,86 @@ footer a:hover {
   margin-left: 250px;
 }
 
+#ondas {
+  display: block;
+  margin-left: 150px;
+}
+#electro {
+  margin-left: 150px;
+}
+#emision {
+  display: block;
+  margin-left: 90px;
+}
+#basal {
+  font-size: 1rem;
+  width: 20%;
+  margin-left: 160px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: midnightblue;
+}
 #luz {
   display: block;
+  margin-left: 70px;
+}
+#visible {
+  font-size: 1rem;
+  width: 20%;
+  margin-left: 200px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: midnightblue;
+}
+#ciencia {
+  display: block;
   margin-left: 250px;
-  margin-right: 200px;
+}
+#sustancia {
+  display: block;
+  margin-left: 150px;
+}
+#composition {
+  font-size: xx-large;
+  margin-left: 120px;
+  color: midnightblue;
+}
+#system {
+  font-size: large;
+  margin-left: 120px;
+  color: black;
+}
+#terrestres {
+  display: block;
+  margin-left: 70px;
+}
+#gigantes {
+  display: block;
+  margin-left: 70px;
+}
+#gaseosos {
+  display: block;
+  margin-left: 70px;
+}
+#hielo {
+  display: block;
+  margin-left: 70px;
+}
+#stars {
+  font-size: xx-large;
+  margin-left: 120px;
+  color: midnightblue;
+}
+#sun {
+  font-size: xx-large;
+  margin-left: 120px;
+  color: midnightblue;
+}
+#estrellas {
+  display: block;
+  margin-left: 70px;
+}
+#sol {
+  display: block;
+  margin-left: 70px;
 }
